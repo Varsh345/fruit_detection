@@ -3,7 +3,7 @@ name: Deploy Docker Image to EC2
 on:
   push:
     branches:
-      - master   # You can replace this with the branch you want to trigger the pipeline on
+      - main   # You can replace this with the branch you want to trigger the pipeline on
 
 jobs:
   build:
